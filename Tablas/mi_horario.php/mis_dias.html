@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario 510</title>
+    <link rel="stylesheet" href="horario.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,400;0,600;0,800;1,300;1,500;1,700;1,900&family=Mukta:wght@300;400;700&family=Pixelify+Sans:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,500;0,800;1,300;1,400;1,800;1,900&family=Young+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- En la siguiente línea irá el Titulo de nuestra aplicación-->
+    <h3 class="titulo">Horaio</h3>
+
+    <!-- En esta otra línea construiremos nuestro formulario en base a nuestros datos que coloquemos-->
+    <form action="horario.php" method="POST" >
+        <label for="dias">Coloca las materias que te tocan en sus horarios correspondientes<br> <small>Favor de colocar bien los datos que se te piden</small></label>
+        <ul class="horas">
+            <li class="mytime">13:20-14:10 
+                <input type="text" name="PRIMERA_HORA" placeholder="Lunes" required>
+                <input type="text" name="PRIMERA_HORA" placeholder="Lunes" required>
+                <input type="text" name="PRIMERA_HORA" placeholder="Lunes" required>
+                <input type="text" name="PRIMERA_HORA" placeholder="Lunes" required>
+                <input type="text" name="PRIMERA_HORA" placeholder="Lunes" required>
+            </li>
+
+            <li class="mytime">14:10-15:00
+                <input type="text" name="SEGUNDA_HORA" placeholder="Lunes" required>
+                <input type="text" name="PRIMERA_HORA" placeholder="Lunes" required>
+                <input type="text" name="PRIMERA_HORA" placeholder="Lunes" required>
+                <input type="text" name="PRIMERA_HORA" placeholder="Lunes" required>
+                <input type="text" name="PRIMERA_HORA" placeholder="Lunes" required>
+            </li>
+
+            <li class="mytime">15:00-15:50
+                <input type="text" name="TERCER_HORA" placeholder="Lunes" required>
+                <input type="text" name="PRIMERA_HORA" placeholder="Lunes" required>
+                <input type="text" name="PRIMERA_HORA" placeholder="Lunes" required>
+                <input type="text" name="PRIMERA_HORA" placeholder="Lunes" required>
+                <input type="text" name="PRIMERA_HORA" placeholder="Lunes" required>
+            </li>
+
+            <li class="mytime">15:50-16:40
+                <input type="text" name="CUARTA_HORA" placeholder="Lunes" required>
+                <input type="text" name="PRIMERA_HORA" placeholder="Lunes" required>
+                <input type="text" name="PRIMERA_HORA" placeholder="Lunes" required>
+                <input type="text" name="PRIMERA_HORA" placeholder="Lunes" required>
+                <input type="text" name="PRIMERA_HORA" placeholder="Lunes" required>
+            </li>
+
+            <li class="mytime">17:00-17:50
+                <input type="text" name="QUINTA_HORA" placeholder="Lunes" required>
+                <input type="text" name="PRIMERA_HORA" placeholder="Lunes" required>
+                <input type="text" name="PRIMERA_HORA" placeholder="Lunes" required>
+                <input type="text" name="PRIMERA_HORA" placeholder="Lunes" required>
+                <input type="text" name="PRIMERA_HORA" placeholder="Lunes" required>
+            </li>
+
+            <li class="mytime">17:50-18:40
+                <input type="text" id="lun" name="SEXTA_HORA" placeholder="Lunes" required>
+                <input type="text" name="PRIMERA_HORA" placeholder="Lunes" required>
+                <input type="text" name="PRIMERA_HORA" placeholder="Lunes" required>
+                <input type="text" name="PRIMERA_HORA" placeholder="Lunes" required>
+                <input type="text" name="PRIMERA_HORA" placeholder="Lunes" required>
+            </li>
+
+            <li class="mytime">18:40-19:20
+                <input type="text" name="SEPTIMA_HORA" placeholder="Lunes" required>
+                <input type="text" name="PRIMERA_HORA" placeholder="Lunes" required>
+                <input type="text" name="PRIMERA_HORA" placeholder="Lunes" required>
+                <input type="text" name="PRIMERA_HORA" placeholder="Lunes" required>
+                <input type="text" name="PRIMERA_HORA" placeholder="Lunes" required>
+            </li>
+        </ul>
+        <input class="envio" type="submit" value="VER HORARIO">
+        <input class="repetir" type="reset" value="CORREGIR">
+    </form>
+
+</body>
+</html>

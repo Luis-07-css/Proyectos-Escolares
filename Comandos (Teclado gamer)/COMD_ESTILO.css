@@ -1,0 +1,9 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+/*Se hará el estilo para la página en general*/
+body {
+    background-color: aliceblue;
+}

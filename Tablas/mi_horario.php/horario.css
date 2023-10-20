@@ -1,0 +1,74 @@
+/*Declaracion de variables colores y tipograías*/
+:root {
+    --font_title: 'Mukta', sans-serif;
+    --font_pixel: 'Pixelify Sans', sans-serif;
+    --font_chivo: 'Chivo Mono', monospace;
+
+    /*COLORES*/
+    --color_grisblanc: #EEEDED;
+    --color_textobs: #27374D;
+    --Eerie-Black: #1E1E1E;
+    --color_azobs: #3876BF;
+    --color_amaf: #F4E869; 
+    --color_amarillo: #F0DE36;
+    --septimo_color: #6DA5Cc;
+    --octavo_color: #384358;
+    --Sandy-Brown: #F39F5A;
+    --color_text: #787A91;
+    --quinto-color: #CACFD2;
+    --sexto-color: #FAFBFE;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+body {
+    /*Color (primera prueba)*/
+    background-color: var(--Sandy-Brown);
+    /*Segunda pruba de color
+    background-color: var(--color_azobs);*/
+}
+.titulo, h3 {
+    font-family: var(--font_pixel);
+    font-size: 80px;
+    font-style: italic;
+    font-weight: bold;
+    display: flexbox;
+    border-color: var(--septimo_color);
+    border-width: 20px;
+    border-style: groove;
+    border-radius: 25px;
+    letter-spacing: 10px;
+    /*line-height: 30%;
+    text-indent: 40%;*/
+    text-align: center;
+    padding: 3%;
+}
+
+.horas, ul {
+    position: relative;
+    list-style-type: decimal-leading-zero;
+}
+label {
+    font-family: var(--font_chivo);
+    font-size: 25px;
+    display: inline-block;
+    width: 70%;
+    margin: 10%;
+}
+small {
+    font-size: 15px;
+    font-weight: bolder;
+    color: ;
+}
+.mytime {
+    display: flex;
+    border-radius: 10px;
+    background-color: var(--color_amarillo);
+    width: 15%;
+}
+.envio {
+}
+.repetir {
+}
